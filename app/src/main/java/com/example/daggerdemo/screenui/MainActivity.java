@@ -1,4 +1,4 @@
-package com.example.daggerdemo;
+package com.example.daggerdemo.screenui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
@@ -6,6 +6,11 @@ import androidx.lifecycle.ViewModelProvider;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.daggerdemo.DaggerAppComponent;
+import com.example.daggerdemo.R;
+import com.example.daggerdemo.model.ProductList;
+import com.example.daggerdemo.viiewmodel.MainActivityViewModel;
 
 import javax.inject.Inject;
 

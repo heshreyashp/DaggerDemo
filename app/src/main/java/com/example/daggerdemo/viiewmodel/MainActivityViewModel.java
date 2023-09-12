@@ -1,7 +1,10 @@
-package com.example.daggerdemo;
+package com.example.daggerdemo.viiewmodel;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.daggerdemo.Repository;
+import com.example.daggerdemo.model.ProductList;
 
 import java.util.List;
 

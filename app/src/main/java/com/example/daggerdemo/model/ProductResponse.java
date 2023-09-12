@@ -1,4 +1,4 @@
-package com.example.daggerdemo;
+package com.example.daggerdemo.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

@@ -5,6 +5,9 @@ import android.util.Log;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
+import com.example.daggerdemo.model.ProductList;
+import com.example.daggerdemo.model.ProductResponse;
+
 import java.util.List;
 
 import retrofit2.Call;
